@@ -11,13 +11,13 @@ class FizzBuzz {
 
         while (i < 100) {
 
-            // Find out which numbers divide i.
             i = FB(i);
 
         }
     }
 
-    private static int FB(int i) {
+    public static int FB(int i) {
+        // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
